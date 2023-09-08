@@ -98,22 +98,22 @@ export default function Contact() {
               <div className="flex gap-1 lg:text-lg text-sm items-center">
                 <IoLocationOutline className="w-8 h-8 text-white" />
                 <p className="text-white w-72">
-                  House No.1562 Sector E-11 DHA Phase 6, Lahore
+                  House No.1562 Sector I-10 Dubble Road Islamabad
                 </p>
               </div>
               {/* Phone and WhatsApp */}
               <div className="flex gap-1 lg:text-lg text-sm items-center">
                 <IoCallOutline className="w-8 h-8 text-white" />
                 <div>
-                  <p className="text-white">Phone: +92 000 000 000</p>
-                  <p className="text-white ">Whatsaap No: 00000000000</p>
+                  <p className="text-white">Phone: +92 041 797211</p>
+                  <p className="text-white ">Whatsaap No: 0304 1797211</p>
                 </div>
               </div>
               {/* Email */}
               <div className="flex gap-1 lg:text-lg text-sm items-center">
                 <HiOutlineMail className="w-8 h-8 text-white" />
                 <p className="text-white ">
-                  Email: abc@gmail.com
+                  Email: shahzadhussain17310434@gmail.com
                 </p>
               </div>
             </div>

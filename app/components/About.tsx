@@ -32,11 +32,8 @@ export default function About() {
             <h2 className="text-2xl text-green-500">Web Developer</h2>
             {/* Description */}
             <p className="text-lg text-gray-400">
-              I am a skilled Web Developer with a passion for crafting seamless
-              web experiences. Proficient in HTML, CSS, JavaScript, and React, I
-              create responsive and user-friendly web applications. My goal is
-              to provide innovative solutions that engage users and enhance
-              their online interactions.
+            I'm Shahzad, a skilled Web Developer with 2+ years of experience, proficient in HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, and API Integration. I excel at creating high-quality, user-centric
+             web experiences with a strong commitment to code quality and transparency, ensuring client satisfaction.
             </p>
 
             {/* Personal Information */}
@@ -46,7 +43,7 @@ export default function About() {
                 <p>Jun 20, 1998</p>
               </div>
               <div className="flex gap-12">
-              <p className="font-semibold">Phone:</p>
+                <p className="font-semibold">Phone:</p>
                 <p>+92 304 1797211</p>
               </div>
               <div className="flex gap-14">
@@ -66,7 +63,7 @@ export default function About() {
                 <p>Availble</p>
               </div>
             </div>
-            
+
             {/* Download CV Button */}
             <div className="mt-3">
               <button className="bg-green-500 text-[#112A46] font-semibold text-lg p-4 py-2 rounded-full hover:-translate-y-3 transition-all duration-500">
