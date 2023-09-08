@@ -46,12 +46,12 @@ export default function About() {
                 <p>Jun 20, 1998</p>
               </div>
               <div className="flex gap-12">
-                <p className="font-semibold">Phone:</p>
-                <p>+92 304 0 000 000</p>
+              <p className="font-semibold">Phone:</p>
+                <p>+92 304 1797211</p>
               </div>
               <div className="flex gap-14">
                 <p className="font-semibold">Email:</p>
-                <p className="">abc3@gmail.com</p>
+                <p className="">shahzadhussain 1731043@gmail.com</p>
               </div>
               <div className="flex gap-14">
                 <p className="font-semibold">From:</p>

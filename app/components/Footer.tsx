@@ -20,7 +20,7 @@ export default function Footer() {
             <p>Copyright © 2023 SZ</p>
           </div>
           <div className="flex gap-5 cursor-pointer text-gray-400 ">
-            <Link href="https://github.com">
+            <Link href="https://github.com/ShahzadAliSoomro">
               <span
                 className="w-9 h-9 flex items-center justify-center rounded-full
                 hover:bg-green-500 hover:text-[#112A46] 
@@ -29,7 +29,7 @@ export default function Footer() {
                 <TiSocialGithubCircular aria-label="GitHub" className="w-9 h-9"/>
               </span>
             </Link>
-            <Link href="https://www.linkedin.com">
+            <Link href="https://www.linkedin.com/in/shahzad-ali-51748122b/">
               <span
                 className="w-9 h-9 flex items-center justify-center rounded-full
                 hover:bg-green-500 hover:text-[#112A46] 
@@ -38,7 +38,7 @@ export default function Footer() {
                 <TiSocialLinkedinCircular aria-label="LinkedIn" className="w-9 h-9"/>
               </span>
             </Link>
-            <Link href="https://www.facebook.com">
+            <Link href="https://www.facebook.com/profile.php?id=100067543970671&mibextid=ZbWKwL">
               <span
                 className="w-9 h-9 flex items-center justify-center rounded-full
                 hover:bg-green-500 hover:text-[#112A46] 
@@ -47,7 +47,7 @@ export default function Footer() {
                 <TiSocialFacebookCircular aria-label="Facebook" className="w-9 h-9"/>
               </span>
             </Link>
-            <Link href="https://twitter.com">
+            <Link href="https://twitter.com/Shahzad67656720?t=VTYdy-uo4cClxdvEI_4DiA&s=08">
               <span
                 className="w-9 h-9 flex items-center justify-center rounded-full
                 hover:bg-green-500 hover:text-[#112A46] 
@@ -56,7 +56,7 @@ export default function Footer() {
                 <TiSocialTwitterCircular aria-label="Twitter" className="w-9 h-9"/>
               </span>
             </Link>
-            <Link href="https://instagram.com">
+            <Link href="https://instagram.com/shahzadhussain1731043?igshid=MzNlNGNkZWQ4Mg==">
               <span
                 className="w-9 h-9 flex items-center justify-center rounded-full
                 hover:bg-green-500 hover:text-[#112A46] 
