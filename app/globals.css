@@ -16,6 +16,27 @@
   }
 }
 
+.shimmer {
+  background-image: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(255, 255, 255, 0.5) 50%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmerAnimation 1s infinite;
+}
+
+/* Define the shimmer animation */
+@keyframes shimmerAnimation {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -25,3 +46,47 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* use our components Hero */
+
+@keyframes fadeInFromCenter {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Your existing styles for the layout */
+/* ... */
+
+.animate-fadeInFromCenter {
+  animation: fadeInFromCenter 1s ease-in-out;
+}
+
+.animate-spin {
+  animation: spin 3s linear infinite;
+}
+
+.emphasis {
+  font-size: 2rem; /* Adjust the font size as needed */
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out; /* Add a smooth transition effect */
+}
+
+.emphasis.hidden {
+  opacity: 0;
+}
+
