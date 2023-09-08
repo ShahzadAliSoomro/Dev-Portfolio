@@ -4,19 +4,6 @@ import { IoLocationOutline, IoCallOutline } from "react-icons/io5";
 import { HiOutlineMail } from "react-icons/hi";
 
 export default function Contact() {
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
-
-  const handleChange = (e: any) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
-
-  const handleSubmit = (e: any) => {
-    e.preventDefault();
-    // Send the form data to your backend or handle it as needed
-    console.log(formData);
-  };
-
   return (
     <div className="w-full bg-[#1E293B]">
       <div className="max-w-[1440px] container mx-auto lg:p-10 p-0">
@@ -31,7 +18,8 @@ export default function Contact() {
                 Fill out the contact form and shahzad will contact you directly.
               </p>
               <form
-              onSubmit={handleSubmit}
+                action="https://getform.io/f/35a57839-3ffc-417a-84e0-1bffdaf53474"
+                method="POST"
                 className="flex flex-col gap-4"
               >
                 {/* Name Input */}
@@ -40,8 +28,6 @@ export default function Contact() {
                     type="text"
                     name="name"
                     placeholder="Name*"
-                    value={formData.name}
-                    onChange={handleChange}
                     className="w-full p-2 py-3 outline-none text-white border-2 placeholder:text-lg placeholder:font-semibold border-gray-200 bg-transparent"
                   />
                 </div>
@@ -51,8 +37,6 @@ export default function Contact() {
                     type="email"
                     name="email"
                     placeholder="Email*"
-                    value={formData.email}
-                    onChange={handleChange}
                     className="w-full p-2 py-3 outline-none text-white border-2 placeholder:text-lg placeholder:font-semibold border-gray-200 bg-transparent"
                   />
                 </div>
@@ -61,8 +45,6 @@ export default function Contact() {
                   <textarea
                     name="message"
                     placeholder="Message*"
-                    value={formData.message}
-                    onChange={handleChange}
                     className="no-resize appearance-none block w-full text-white border-2 placeholder:text-lg placeholder:font-semibold border-gray-200 bg-transparent py-2 px-2 mb-3 leading-tight focus:outline-none h-48 resize-none"
                   />
                 </div>
@@ -89,7 +71,7 @@ export default function Contact() {
                 apply.
               </p>
             </div>
-             {/* Right Column: Contact Information */}
+            {/* Right Column: Contact Information */}
             <div className="w-full lg:w-6/12 flex flex-col space-y-10  ">
               <p className="text-xl font-semibold text-white pt-5 ">
                 {`Better yet, see us in person!`}
