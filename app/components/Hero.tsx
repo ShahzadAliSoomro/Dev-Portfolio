@@ -72,27 +72,27 @@ export default function Hero() {
   const iconData = [
     // icon data
     {
-      link: "https://github.com",
+      link: "https://github.com//ShahzadAliSoomro",
       icon: <TiSocialGithubCircular className="lg:w-12 w-10 lg:h-12 h-10" />,
       text: "Github",
     },
     {
-      link: "https://www.linkedin.com",
+      link: "https://www.linkedin.com/in/shahzad-ali-51748122b/",
       icon: <TiSocialLinkedinCircular className="lg:w-12 w-10 lg:h-12 h-10" />,
       text: "LinkedIn",
     },
     {
-      link: "https://www.facebook.com",
+      link: "https://www.facebook.com/profile.php?id=100067543970671&mibextid=ZbWKwL",
       icon: <TiSocialFacebookCircular className="lg:w-12 w-10 lg:h-12 h-10" />,
       text: "Facebook",
     },
     {
-      link: "https://twitter.com",
+      link: "https://twitter.com/Shahzad67656720?t=VTYdy-uo4cClxdvEI_4DiA&s=08",
       icon: <TiSocialTwitterCircular className="lg:w-12 w-10 lg:h-12 h-10" />,
       text: "Twitter",
     },
     {
-      link: "https://instagram.com",
+      link: "https://instagram.com/shahzadhussain1731043?igshid=MzNlNGNkZWQ4Mg==",
       icon: <TiSocialInstagramCircular className="lg:w-12 w-10 lg:h-12 h-10" />,
       text: "Instagram",
     },
