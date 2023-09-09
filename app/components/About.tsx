@@ -15,7 +15,7 @@ export default function About() {
           {/* Left Section with Image */}
           <div className="w-full lg:w-6/12 mb-10 lg:mb-0" data-aos="fade-right">
             <Image
-              src="/prr.avif"
+              src="/sz.png"
               alt="hero"
               width={500}
               height={500}

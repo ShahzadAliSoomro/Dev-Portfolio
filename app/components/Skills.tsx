@@ -26,7 +26,7 @@ export default function Skills() {
             data-aos="fade-right"
           >
             <Image
-              src="/prr.avif"
+              src="/sz.png"
               alt="hero"
               width={500}
               height={500}
