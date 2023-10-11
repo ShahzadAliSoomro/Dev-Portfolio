@@ -32,8 +32,12 @@ export default function About() {
             <h2 className="text-2xl text-green-500">Web Developer</h2>
             {/* Description */}
             <p className="text-lg text-gray-400">
-            I'm Shahzad, a skilled Web Developer with 2+ years of experience, proficient in HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, and API Integration. I excel at creating high-quality, user-centric
-             web experiences with a strong commitment to code quality and transparency, ensuring client satisfaction.
+              I'm Shahzad, a skilled Web Developer with 2+ years of experience,
+              proficient in HTML, CSS, JavaScript, TypeScript, React, Next.js,
+              Tailwind CSS, and API Integration. I excel at creating
+              high-quality, user-centric web experiences with a strong
+              commitment to code quality and transparency, ensuring client
+              satisfaction.
             </p>
 
             {/* Personal Information */}
@@ -66,9 +70,14 @@ export default function About() {
 
             {/* Download CV Button */}
             <div className="mt-3">
-              <button className="bg-green-500 text-[#112A46] font-semibold text-lg p-4 py-2 rounded-full hover:-translate-y-3 transition-all duration-500">
-                Download CV
-              </button>
+              <a
+                href="/ShahzadAli.pdf" // Replace with the actual path to your CV file
+                download="ShahzadAli.pdf"
+              >
+                <button className="bg-green-500 text-[#112A46] font-semibold text-lg p-4 py-2 rounded-full hover:-translate-y-3 transition-all duration-500">
+                  Download CV
+                </button>
+              </a>
             </div>
           </div>
         </div>

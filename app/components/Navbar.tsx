@@ -50,10 +50,11 @@ export default function Navbar() {
             navbarBgColor === "white" ? "text-black" : "text-white"
           }`}
         >
-          <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          id="labeldiv"
-          aria-label="Toggle Mobile Menu" >
-            
+          <button
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            id="labeldiv"
+            aria-label="Toggle Mobile Menu"
+          >
             <AiOutlineMenu className="w-8 h-8" />
           </button>
         </div>
@@ -79,7 +80,7 @@ export default function Navbar() {
             <NavItem
               icon={<AiOutlineUser />}
               label="About"
-              link="/about"
+              link="/"
               navbarBgColor={navbarBgColor}
               activeNavItem={activeNavItem}
               handleNavItemClick={handleNavItemClick} // Pass the function here
@@ -87,7 +88,7 @@ export default function Navbar() {
             <NavItem
               icon={<AiOutlineFundProjectionScreen />}
               label="Project"
-              link="/project"
+              link="/"
               navbarBgColor={navbarBgColor}
               activeNavItem={activeNavItem}
               handleNavItemClick={handleNavItemClick} // Pass the function here
@@ -95,7 +96,7 @@ export default function Navbar() {
             <NavItem
               icon={<BiSortDown />}
               label="Resume"
-              link="/public/ShahzadAli.pdf"
+              link="/"
               navbarBgColor={navbarBgColor}
               activeNavItem={activeNavItem}
               handleNavItemClick={handleNavItemClick} // Pass the function here
@@ -103,7 +104,7 @@ export default function Navbar() {
             <NavItem
               icon={<AiOutlineContacts />}
               label="Contact"
-              link="/contact"
+              link="/"
               navbarBgColor={navbarBgColor}
               activeNavItem={activeNavItem}
               handleNavItemClick={handleNavItemClick} // Pass the function here
@@ -125,7 +126,7 @@ export default function Navbar() {
             <NavItem
               icon={<AiOutlineUser />}
               label="About"
-              link="/about"
+              link="/"
               // navbarBgColor={navbarBgColor}
               activeNavItem={activeNavItem} // Pass activeNavItem to the NavItem component
               handleNavItemClick={handleNavItemClick} // Pass the click handler
@@ -133,7 +134,7 @@ export default function Navbar() {
             <NavItem
               icon={<AiOutlineFundProjectionScreen />}
               label="Project"
-              link="/project"
+              link="/"
               // navbarBgColor={navbarBgColor}
               activeNavItem={activeNavItem} // Pass activeNavItem to the NavItem component
               handleNavItemClick={handleNavItemClick} // Pass the click handler
@@ -149,7 +150,7 @@ export default function Navbar() {
             <NavItem
               icon={<AiOutlineContacts />}
               label="Contact"
-              link="/contact"
+              link="/"
               // navbarBgColor={navbarBgColor}
               activeNavItem={activeNavItem} // Pass activeNavItem to the NavItem component
               handleNavItemClick={handleNavItemClick} // Pass the click handler
@@ -178,7 +179,7 @@ function NavItem({
   };
 
   // Check if the link is for the resume PDF
-  const isResumeLink = link === "/public/ShahzadAli.pdf";
+  const isResumeLink = link === "/ShahzadAli.pdf";
 
   if (isResumeLink) {
     return (
